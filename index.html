@@ -67,6 +67,22 @@ nav .left {
     transition: color 0.3s ease, background-color 0.3s ease;
     cursor: pointer;
 }
+#downloadButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: auto; /* Align the button to the right */
+}
+
+#downloadButton:hover {
+    background-color: #45a049;
+}
 
   main hr {
             border: 0;
@@ -95,6 +111,8 @@ nav .left {
             width: 30%;
         }
 
+
+
         .leftSection {
 
             width: 30%;
@@ -103,6 +121,8 @@ nav .left {
             margin-left: 30px;
             margin-top: 120px;
         }
+        
+
 
         .rightSection {
 
@@ -232,6 +252,9 @@ nav .left {
     <header>
         <nav>
             <div class="left">KUNAL web Portfolio</div>
+            <div class="right"></div> <a href="./kunalchugh-CV.pdf" download="Your_Resume.pdf">
+                <button id="downloadButton">Download Resume</a></button></div>
+            
  
 
         </nav>
@@ -241,6 +264,8 @@ nav .left {
 
             <div class="leftSection">Hi , My name is <span class="purple">KUNAL</span> <br>and <br>I am a
                 <span id="element"></span>
+               
+                
             </div>
             <div class="rightSection"><img src="./ridhtimg1.avif" alt="image"></div>
         </section>
