@@ -103,6 +103,21 @@ button::after {
 		#655adc,
 		#488cfb
 	);
+    @media (max-width: 768px) { /* Adjust button styles for mobile */
+    #downloadButton {
+        padding: 8px 16px;
+        font-size: 14px;
+        width: 100%; /* Makes the button full-width */
+    }
+}
+
+@media (max-width: 480px) { /* Further adjust for very small screens */
+    #downloadButton {
+        padding: 6px 12px;
+        font-size: 12px;
+        width: 100%;
+    }
+}
  -webkit-mask-image: var(--m-i), var(--m-i);
  mask-image: var(--m-i), var(--m-i);
  -webkit-mask-origin: var(--m-o);
