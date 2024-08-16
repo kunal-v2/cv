@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>KUNAL's Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(8, 8, 56);
+            color: white;
+        }
+        nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 77);
+    background: linear-gradient(90deg, rgba(28, 28, 107, 0.9), rgba(18, 18, 77, 0.7));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0 20px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, box-shadow 0.3s ease;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+nav:hover {
+    background-color: rgb(14, 14, 66);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+nav .left {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f1f1f1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+  main hr {
+            border: 0;
+            height: 1.2px;
+            margin: 40px 84px;
+            background-color: rgb(152, 112, 218);
+            ;
+        }
+
+        .left {
+            font-size: 1.5rem;
+
+
+
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+            margin-top: 110px;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            width: 30%;
+            font-size: 3rem;
+            width: 30px 0;
+            margin-left: 30px;
+            margin-top: 120px;
+        }
+
+        .rightSection {
+
+            width: 30%;
+        }
+
+        .rightSectionn img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: purple;
+
+
+        }
+
+        .textgray {
+            color: gray;
+
+        }
+
+        #element {
+
+            color: rgb(152, 112, 218);
+
+
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+      
+        }
+
+        .secondsection .box {
+            display: flex;
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin-top: 50px;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 90px;
+        }
+
+        .imagetop {
+            position: relative;
+            width: 32px;
+            top: -32.5px;
+            position: relative;
+            margin-left: -15px;
+
+        }
+
+        .verticaltext {
+            position: relative;
+            top: 100px;
+            width: 150px;
+            left: -100px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 200px;
+            width: 150px;
+            left: -145px;
+ }
+        .vertical-desc2 {
+            position: relative;
+            top: 200px;
+            width: 150px;
+            left: -155px;
+ }
+ footer {
+    display: flex;
+    margin-top: 70px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(18, 18, 77);
+    color: white;
+}
+
+.footer-left {
+    font-size: 1rem;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-right a {
+    margin-left: 15px;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">KUNAL web Portfolio</div>
+ 
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+
+            <div class="leftSection">Hi , My name is <span class="purple">KUNAL</span> <br>and <br>I am a
+                <span id="element"></span>
+            </div>
+            <div class="rightSection"><img src="./ridhtimg1.avif" alt="image"></div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="textgray">What I Have Done So Far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical"><img class="imagetop" src="./—Pngtree—school logo_6851480.png" alt="1"></div>
+                <div class="verticaltext">High School</div>
+                <div class="vertical-desc"> Completed high school with a 7.6 CGPA. They built a strong academic foundation, particularly in subjects like mathematics and science, preparing them for future career opportunities.</div>
+                
+                <div class="vertical"><img class="imagetop" src="./—Pngtree—bachelor's college degree_6281284.png" alt="1"></div>
+                <div class="verticaltext">B.Tech CSE</div>
+                <div class="vertical-desc">B.Tech in Computer Science from MRIU with a 7.0 CGPA. They developed strong programming and software development skills</div>
+                <div class="vertical"><img class="imagetop" src="./pngegg.png" alt="1"></div>
+                <div class="verticaltext">Frontend Developer</div>
+                <div class="vertical-desc2">Actively Improving front-end development, focusing on key technologies like HTML, CSS, JavaScript & React . With a strong interest to master the latest tools and techniques in the field.</div>
+                <div class="vertical"><img class="imagetop" src="./emoji-briefcase-computer-icons-iphone-briefcase-4ccc4a3ab7c34eadb998bb1f8370c096.png" alt="1"></div>
+                <div class="verticaltext"> The Pebbles</div>
+                <div class="vertical-desc2">At The Pebbles i help creates responsive websites with HTML, CSS, JavaScript, and React, optimizing performance and ensuring seamless user experiences aligned with client goals.</div>
+
+
+
+
+
+
+                </div>
+              
+            </div>
+
+        </section>
+        <footer>
+            <div class="footer-left">
+                <p>© 2024 KUNAL CHUGH</p>
+            </div>
+            <div class="footer-right">
+                <a href="https://x.com/100xkunal" target="_blank">
+                    <img src="./images.png" alt="X" class="social-icon">
+                </a>
+                <a href="mailto:kunalchugh06@gmail.com" target="kunalchugh06@gmail.com">
+                    <img src="./gmail.jpg" alt="Gmail" class="social-icon">
+                </a>
+                <a href="https://github.com/kunal-v2" target="https://github.com/kunal-v2">
+                    <img src="./github-6980894_960_720.webp" alt="GitHub" class="social-icon">
+                </a>
+            </div>
+        </footer>
+        
+    </main>
+   
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Element to contain animated typing -->
+
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer.'],
+            typeSpeed: 80,
+            loop: true
+        });
+    </script>
+</body>
+
+
+</html>
